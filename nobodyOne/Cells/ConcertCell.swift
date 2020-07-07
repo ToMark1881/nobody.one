@@ -14,7 +14,7 @@ protocol ConcertCellDelegate: class {
 
 import UIKit
 
-class ConcertCell: UITableViewCell {
+class ConcertCell: BaseCell {
     
     public var concert: Concert? {
         didSet {
@@ -45,16 +45,17 @@ class ConcertCell: UITableViewCell {
     
     override func prepareForReuse() {
         super.prepareForReuse()
-        
+        self.dateLabel.text = nil
+        self.placeLabel.text = nil
     }
     
-    func setupCell() {
+    override func setupCell() {
         guard let concert = concert else { return }
         self.placeLabel.text = "\(concert.city ?? "") / \(concert.placeTitle ?? "")"
         if let timestamp = concert.eventTimestamp {
             let date = Date(timeIntervalSince1970: TimeInterval(timestamp))
             let dateFormatter = DateFormatter()
-            dateFormatter.locale = NSLocale.current
+            dateFormatter.locale = Locale(identifier: "ru")
             dateFormatter.dateFormat = "d MMMM"
             self.dateLabel.text = dateFormatter.string(from: date)
         }

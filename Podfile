@@ -5,10 +5,8 @@ target 'nobodyOne' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-# add pods for desired Firebase products
-# https://firebase.google.com/docs/ios/setup#available-pods
 pod 'Firebase/Database'
+pod 'YoutubeKit'
 
-  # Pods for nobodyOne
 
 end

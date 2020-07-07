@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		7D16CB9924B4A5760027ACD7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16CB9824B4A5760027ACD7 /* Extensions.swift */; };
 		7D16CB9B24B4A94E0027ACD7 /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16CB9A24B4A94E0027ACD7 /* Tour.swift */; };
+		7D33687024B4E33C0018746B /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D33686F24B4E33C0018746B /* Song.swift */; };
+		7D33687324B4E4A40018746B /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D33687124B4E4A40018746B /* AlbumCell.swift */; };
+		7D33687424B4E4A40018746B /* AlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D33687224B4E4A40018746B /* AlbumCell.xib */; };
+		7D33687624B4E8E30018746B /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D33687524B4E8E30018746B /* BaseCell.swift */; };
 		7D4CD91724B457F2009AEA54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4CD91624B457F2009AEA54 /* AppDelegate.swift */; };
 		7D4CD91924B457F2009AEA54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4CD91824B457F2009AEA54 /* SceneDelegate.swift */; };
 		7D4CD91B24B457F2009AEA54 /* TourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4CD91A24B457F2009AEA54 /* TourViewController.swift */; };
@@ -37,6 +41,10 @@
 		55567A7B68644B5E073FC6FD /* Pods_nobodyOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nobodyOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D16CB9824B4A5760027ACD7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7D16CB9A24B4A94E0027ACD7 /* Tour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
+		7D33686F24B4E33C0018746B /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		7D33687124B4E4A40018746B /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		7D33687224B4E4A40018746B /* AlbumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumCell.xib; sourceTree = "<group>"; };
+		7D33687524B4E8E30018746B /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		7D4CD91324B457F2009AEA54 /* nobody.one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nobody.one.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4CD91624B457F2009AEA54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D4CD91824B457F2009AEA54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +149,7 @@
 				7D4CD94324B47AEF009AEA54 /* Concert.swift */,
 				7D16CB9A24B4A94E0027ACD7 /* Tour.swift */,
 				7D4CD94724B47B2B009AEA54 /* Album.swift */,
+				7D33686F24B4E33C0018746B /* Song.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -158,8 +167,11 @@
 		7D4CD94E24B485DA009AEA54 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				7D33687524B4E8E30018746B /* BaseCell.swift */,
 				7D4CD94F24B48B30009AEA54 /* ConcertCell.swift */,
 				7D4CD95024B48B30009AEA54 /* ConcertCell.xib */,
+				7D33687124B4E4A40018746B /* AlbumCell.swift */,
+				7D33687224B4E4A40018746B /* AlbumCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -257,6 +269,7 @@
 				7D4CD93A24B45AE7009AEA54 /* Ubuntu-Light.ttf in Resources */,
 				7D4CD93924B45AE7009AEA54 /* Ubuntu-Medium.ttf in Resources */,
 				7D4CD93C24B45AE7009AEA54 /* Ubuntu-Regular.ttf in Resources */,
+				7D33687424B4E4A40018746B /* AlbumCell.xib in Resources */,
 				7D4CD95224B48B30009AEA54 /* ConcertCell.xib in Resources */,
 				7D4CD92024B457F2009AEA54 /* Main.storyboard in Resources */,
 			);
@@ -321,6 +334,9 @@
 				7D16CB9B24B4A94E0027ACD7 /* Tour.swift in Sources */,
 				7DCB463C24B49EC10008EF46 /* ServicesContainer.swift in Sources */,
 				7D16CB9924B4A5760027ACD7 /* Extensions.swift in Sources */,
+				7D33687024B4E33C0018746B /* Song.swift in Sources */,
+				7D33687624B4E8E30018746B /* BaseCell.swift in Sources */,
+				7D33687324B4E4A40018746B /* AlbumCell.swift in Sources */,
 				7D4CD95124B48B30009AEA54 /* ConcertCell.swift in Sources */,
 				7D4CD94224B47480009AEA54 /* BaseViewController.swift in Sources */,
 				7D4CD94424B47AEF009AEA54 /* Concert.swift in Sources */,

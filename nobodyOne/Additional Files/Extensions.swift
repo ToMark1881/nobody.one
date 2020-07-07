@@ -7,11 +7,13 @@
 //
 
 import Foundation
-
+import UIKit
 
 class Extensions {
     
     let shared = Extensions()
+    
+    let screenSize = UIScreen.main.bounds
     
     private init() {  }
     
