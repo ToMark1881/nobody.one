@@ -1,0 +1,375 @@
+{
+    "albums": [
+        {
+            "title": "Mercy, Please Mercy!",
+            "year": 2020,
+            "info": "Ну что за херня, опять шедевр написал.",
+            "imageName": "mercy-please-mercy-cover",
+            "link": "https://youtu.be/JBp-9-_E7Qw",
+            "videoID": "JBp-9-_E7Qw",
+            "appleMusicUrl": "https://music.apple.com/ru/album/mercy-please-mercy/1508157335?l=ru",
+            "songs": [
+                {
+                    "title": "Jaguar",
+                    "timestamp": 0,
+                    "position": 1
+                },
+                {
+                    "title": "Tribe Solder",
+                    "timestamp": 184,
+                    "position": 2
+                },
+                {
+                    "title": "Sombrero",
+                    "timestamp": 360,
+                    "position": 3
+                },
+                {
+                    "title": "Mercy",
+                    "timestamp": 510,
+                    "position": 4
+                },
+                {
+                    "title": "Dust Boy",
+                    "timestamp": 793,
+                    "position": 5
+                },
+                {
+                    "title": "Flower Unplucked",
+                    "timestamp": 975,
+                    "position": 6
+                },
+                {
+                    "title": "Shark Groove",
+                    "timestamp": 1207,
+                    "position": 7
+                },
+                {
+                    "title": "Suffer",
+                    "timestamp": 1512,
+                    "position": 8
+                },
+                {
+                    "title": "The Rover",
+                    "timestamp": 1707,
+                    "position": 9
+                },
+                {
+                    "title": "Bright Light Night",
+                    "timestamp": 1891,
+                    "position": 10
+                },
+                {
+                    "title": "Overcome",
+                    "timestamp": 2100,
+                    "position": 11
+                },
+                {
+                    "title": "You Are Here",
+                    "timestamp": 2375,
+                    "position": 12
+                }
+            ]
+        },
+        {
+            "title": "No Care",
+            "year": 2016,
+            "info": "Название альбома «no care» переводится как «всё равно» или «без разницы». Это о том, что жизнь не ограничена нашей реальностью, и многие вещи, которые имеют для нас значение, не так уж и важны. Мы приходим, ничего не имея с собой, так и уйдем. Нет ни начала, ни конца. Познав бесконечность — обретаешь истину.",
+            "imageName": "no-care-cover",
+            "link": "https://youtu.be/3WzD6Z6tt5Q",
+            "videoID": "3WzD6Z6tt5Q",
+            "appleMusicUrl": "https://music.apple.com/ru/album/no-care/1496310146?l=ru",
+            "songs": [
+                {
+                    "title": "Elastic",
+                    "timestamp": 0,
+                    "position": 1
+                },
+                {
+                    "title": "Watergirl",
+                    "timestamp": 154,
+                    "position": 2
+                },
+                {
+                    "title": "Razoresolve",
+                    "timestamp": 424,
+                    "position": 3
+                },
+                {
+                    "title": "Heroin",
+                    "timestamp": 721,
+                    "position": 4
+                },
+                {
+                    "title": "Juvenile",
+                    "timestamp": 1027,
+                    "position": 5
+                },
+                {
+                    "title": "The Whale",
+                    "timestamp": 1269,
+                    "position": 6
+                },
+                {
+                    "title": "Tension",
+                    "timestamp": 1503,
+                    "position": 7
+                },
+                {
+                    "title": "I Am The Mass",
+                    "timestamp": 1812,
+                    "position": 8
+                }
+            ]
+        },
+        {
+            "title": "Ocean Echo",
+            "year": 2014,
+            "info": "В звуке чувствуется глубокая философия, открытость души и свобода чувств. Всё сделано так, что прослушав один раз хочется слушать ещё и ещё. Несмотря на жёсткий саунд гитар в звуке абсолютно нет агрессии.",
+            "imageName": "ocean-echo-cover",
+            "link": "https://youtu.be/lAj9-6ltZGQ",
+            "videoID": "lAj9-6ltZGQ",
+            "appleMusicUrl": "https://music.apple.com/ru/album/ocean-echo/1496306792?l=ru",
+            "songs": [
+                {
+                    "title": "Womb",
+                    "timestamp": 0,
+                    "position": 1
+                },
+                {
+                    "title": "Mindflutter",
+                    "timestamp": 303,
+                    "position": 2
+                },
+                {
+                    "title": "The Black Storm",
+                    "timestamp": 571,
+                    "position": 3
+                },
+                {
+                    "title": "A Perfect Run",
+                    "timestamp": 1030,
+                    "position": 4
+                },
+                {
+                    "title": "March of Youth",
+                    "timestamp": 1291,
+                    "position": 5
+                },
+                {
+                    "title": "Echo",
+                    "timestamp": 1572,
+                    "position": 6
+                },
+                {
+                    "title": "Genesis",
+                    "timestamp": 1953,
+                    "position": 7
+                },
+                {
+                    "title": "Omega",
+                    "timestamp": 2352,
+                    "position": 8
+                }
+            ]
+        },
+        {
+            "title": "The Wall Eater",
+            "year": 2013,
+            "info": "«The Wall Eater», как и прочие мои работы, являет собой многонасыщенный комплексный образ. Нельзя сказать, что этот альбом о чём-то конкретном и создан на одной эмоции. Каждая песня сочетает в себе различные чувства и мысли, и чем больше вы их слушаете, тем больше понимаете, что я хотел сказать. В переводе на русский «The Wall Eater» означает «Пожиратель стен». На обложке нарисован лось — простреленный и полудохлый, но всё ещё с огоньком в глазах. Помимо боли и ярости у него ещё есть луч надежды.\nЛось по природе своей большое и доброе животное, мне очень нравится лось, и я наделил его специальными качествами. В первую очередь — это желание добиваться своей цели всеми доступными способами. Поэтому, как только лось видит на своей пути стену, он не пытается её обойти, он её просто… жрёт! Проедает в ней дыру и проходит сквозь стену, продолжая путь. Та травма, которую он при этом получил, это нормальное явление, потому что существует много элементов в жизни, которым не нравится, когда «лоси ходят сквозь стены» и они пытаются остановить, замедлить этот процесс. Лось это понимает и, несмотря на боль, продолжает идти к своей цели.",
+            "imageName": "the-wall-eater-cover",
+            "link": "https://youtu.be/RdC4Q6JTTD4",
+            "videoID": "RdC4Q6JTTD4",
+            "appleMusicUrl": "https://music.apple.com/ru/album/the-wall-eater/1366496204?l=ru",
+            "songs": [
+                {
+                    "title": "Bring It On",
+                    "timestamp": 0,
+                    "position": 1
+                },
+                {
+                    "title": "Chasing The Beyond",
+                    "timestamp": 211,
+                    "position": 2
+                },
+                {
+                    "title": "Edgie The Wall Eater",
+                    "timestamp": 490,
+                    "position": 3
+                },
+                {
+                    "title": "Home",
+                    "timestamp": 751,
+                    "position": 4
+                },
+                {
+                    "title": "Trapper",
+                    "timestamp": 1114,
+                    "position": 5
+                },
+                {
+                    "title": "Rumble",
+                    "timestamp": 1394,
+                    "position": 6
+                },
+                {
+                    "title": "The Fluke",
+                    "timestamp": 1652,
+                    "position": 7
+                },
+                {
+                    "title": "The Days Of Yore",
+                    "timestamp": 1934,
+                    "position": 8
+                },
+                {
+                    "title": "Third From The Sun",
+                    "timestamp": 2178,
+                    "position": 9
+                }
+            ]
+        },
+        {
+            "title": "Does",
+            "year": 2012,
+            "info": "Прослушивание этой пластинки вызывает череду самых различных ассоциаций: от пламенеющей энергии в «Challenge» и «Deadman», до аутичных этюдов в «Cosmos» и «Humility», солнечной доброты «Sunday» и «Horizon», и даже танцевальности морячка «Swabbie the Smuggler». А такие пьесы, как «Shuffled God» или «Farvel», переливаются сразу несколькими оттенками настроения. «Hover» же напоминает некую метаморфозу, когда мелодия, набирая обороты, преображается в настоящий полёт фантазии.",
+            "imageName": "does-cover",
+            "link": "https://youtu.be/STpsnwO2AWo",
+            "videoID": "STpsnwO2AWo",
+            "appleMusicUrl": "https://music.apple.com/ru/album/does/504645860?l=ru",
+            "songs": [
+                {
+                    "title": "Challenge",
+                    "timestamp": 0,
+                    "position": 1
+                },
+                {
+                    "title": "Deadman",
+                    "timestamp": 130,
+                    "position": 2
+                },
+                {
+                    "title": "Farvel",
+                    "timestamp": 333,
+                    "position": 3
+                },
+                {
+                    "title": "Airblow",
+                    "timestamp": 691,
+                    "position": 4
+                },
+                {
+                    "title": "Shuffled God",
+                    "timestamp": 968,
+                    "position": 5
+                },
+                {
+                    "title": "Swabbie The Smuggler",
+                    "timestamp": 1207,
+                    "position": 6
+                },
+                {
+                    "title": "Horizon",
+                    "timestamp": 1382,
+                    "position": 7
+                },
+                {
+                    "title": "Aurora",
+                    "timestamp": 1684,
+                    "position": 8
+                },
+                {
+                    "title": "Sunday",
+                    "timestamp": 1744,
+                    "position": 9
+                },
+                {
+                    "title": "Cosmos",
+                    "timestamp": 1920,
+                    "position": 10
+                },
+                {
+                    "title": "Hover",
+                    "timestamp": 2352,
+                    "position": 11
+                },
+                {
+                    "title": "Humility",
+                    "timestamp": 2594,
+                    "position": 12
+                }
+            ]
+        },
+        {
+            "title": "Head Movies",
+            "year": 2010,
+            "info": "Размещение композиций в альбомах не случайное — каждая песня на своем месте, вся прелесть в прослушивании альбома от начала до конца по авторскому плей-листу. Динамичный и насыщенный рок-н-ролльными эмоциями Head Movies накаляет наши чувства к Though до предела и следующая затем Touching The Void оглушает тишиной и готовит слушателя к Soul, к прикосновению и пониманию самых потаенных уголков своей души.",
+            "imageName": "head-movies-cover",
+            "link": "https://youtu.be/fkrjkY9If5o",
+            "videoID": "fkrjkY9If5o",
+            "appleMusicUrl": "https://music.apple.com/ru/album/head-movies/1113864424?l=ru",
+            "songs": [
+                {
+                    "title": "Leerg",
+                    "timestamp": 0,
+                    "position": 1
+                },
+                {
+                    "title": "Change",
+                    "timestamp": 203,
+                    "position": 2
+                },
+                {
+                    "title": "Bob",
+                    "timestamp": 388,
+                    "position": 3
+                },
+                {
+                    "title": "Astronomy",
+                    "timestamp": 610,
+                    "position": 4
+                },
+                {
+                    "title": "JB",
+                    "timestamp": 747,
+                    "position": 5
+                },
+                {
+                    "title": "Milena (ft. Artem Abrosimov)",
+                    "timestamp": 1053,
+                    "position": 6
+                },
+                {
+                    "title": "Lifeline",
+                    "timestamp": 1380,
+                    "position": 7
+                },
+                {
+                    "title": "The Duck Song",
+                    "timestamp": 1581,
+                    "position": 8
+                },
+                {
+                    "title": "Set",
+                    "timestamp": 1930,
+                    "position": 9
+                },
+                {
+                    "title": "Though",
+                    "timestamp": 2100,
+                    "position": 10
+                },
+                {
+                    "title": "Touching The Void",
+                    "timestamp": 2311,
+                    "position": 11
+                },
+                {
+                    "title": "Soul",
+                    "timestamp": 2404,
+                    "position": 12
+                }
+            ]
+        }
+    ]
+}

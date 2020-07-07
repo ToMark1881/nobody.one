@@ -9,6 +9,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Ubuntu-Bold.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
         <array key="Ubuntu-Regular.ttf">
             <string>Ubuntu-Regular</string>
         </array>
@@ -48,12 +51,12 @@
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="4g7-Bo-yPg"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="18"/>
+                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="18"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Песен: 12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2VK-p8-BJh">
-                        <rect key="frame" x="116" y="74.5" width="180" height="16"/>
+                        <rect key="frame" x="116" y="78.5" width="180" height="16"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="16" id="ceP-wp-kxV"/>
                         </constraints>
@@ -62,11 +65,11 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVM-Ax-udt">
-                        <rect key="frame" x="116" y="31.5" width="196" height="16"/>
+                        <rect key="frame" x="116" y="27.5" width="196" height="14"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="16" id="fSR-3V-U5c"/>
+                            <constraint firstAttribute="height" constant="14" id="fSR-3V-U5c"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="12"/>
+                        <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="14"/>
                         <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -78,11 +81,11 @@
                     <constraint firstAttribute="trailingMargin" secondItem="2VK-p8-BJh" secondAttribute="trailing" constant="8" id="CbA-VU-jlm"/>
                     <constraint firstItem="2SN-Xm-bd0" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="KVT-gE-Gx7"/>
                     <constraint firstItem="2VK-p8-BJh" firstAttribute="leading" secondItem="2SN-Xm-bd0" secondAttribute="trailing" constant="12" id="LMV-fx-rYJ"/>
-                    <constraint firstItem="uSa-R6-wjk" firstAttribute="top" secondItem="AVM-Ax-udt" secondAttribute="bottom" constant="2" id="W5v-hE-kYj"/>
+                    <constraint firstItem="uSa-R6-wjk" firstAttribute="top" secondItem="AVM-Ax-udt" secondAttribute="bottom" constant="8" id="W5v-hE-kYj"/>
                     <constraint firstAttribute="trailing" secondItem="AVM-Ax-udt" secondAttribute="trailing" constant="8" id="X9f-Sh-d2i"/>
                     <constraint firstItem="uSa-R6-wjk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Y4b-cJ-nZc"/>
                     <constraint firstItem="uSa-R6-wjk" firstAttribute="leading" secondItem="2SN-Xm-bd0" secondAttribute="trailing" constant="12" id="gk0-Md-kNy"/>
-                    <constraint firstItem="2VK-p8-BJh" firstAttribute="top" secondItem="uSa-R6-wjk" secondAttribute="bottom" constant="4" id="gwv-os-JTw"/>
+                    <constraint firstItem="2VK-p8-BJh" firstAttribute="top" secondItem="uSa-R6-wjk" secondAttribute="bottom" constant="8" id="gwv-os-JTw"/>
                     <constraint firstItem="2SN-Xm-bd0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="jF9-8z-eHe"/>
                     <constraint firstItem="AVM-Ax-udt" firstAttribute="leading" secondItem="2SN-Xm-bd0" secondAttribute="trailing" constant="12" id="n6x-9Q-YGi"/>
                     <constraint firstItem="dwS-4B-gLD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="o1h-pX-Bz1"/>

@@ -14,7 +14,13 @@ class Album {
     let year: Int?
     let additionalInfo: String?
     let coverImageName: String?
+    let youtubeUrl: URL?
+    let appleMusicUrl: URL?
+    let videoId: String?
     let songs: [Song]?
+    
+    private let youtubeUrlString: String?
+    private let appleMusicUrlString: String?
     
     
     init(_ dict: Dictionary<String, AnyObject>) {
@@ -22,6 +28,7 @@ class Album {
         self.year = dict["year"] as? Int
         self.additionalInfo = dict["info"] as? String
         self.coverImageName = dict["imageName"] as? String
+        self.videoId = dict["videoID"] as? String
         var songs = [Song]()
         if let songsDict = dict["songs"] as? [Dictionary<String, AnyObject>] {
             for songDict in songsDict {
@@ -30,6 +37,15 @@ class Album {
             }
         }
         self.songs = songs
+        if let urlString = dict["link"] as? String {
+            self.youtubeUrlString = urlString
+            self.youtubeUrl = URL(string: urlString)
+        } else { self.youtubeUrlString = nil; self.youtubeUrl = nil }
+        
+        if let urlString = dict["appleMusicUrl"] as? String {
+            self.appleMusicUrlString = urlString
+            self.appleMusicUrl = URL(string: urlString)
+        } else { self.appleMusicUrlString = nil; self.appleMusicUrl = nil }
     }
     
 }

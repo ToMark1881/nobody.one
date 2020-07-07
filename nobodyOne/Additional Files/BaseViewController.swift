@@ -18,7 +18,7 @@ class BaseViewController: UIViewController {
     }
     
     func setNavigationTitle(_ title: String) {
-        self.navigationController?.navigationItem.title = title
+        self.title = title
     }
     
     fileprivate func initServices() {

@@ -12,9 +12,11 @@ import Foundation
 class ServicesContainer {
     
     var concertService: ConcertsAPIInterface?
+    var albumsSerive: AlbumsAPIInterface?
     
     init() {
         self.concertService = ConcertsAPIService()
+        self.albumsSerive = AlbumsAPIService()
     }
     
 }

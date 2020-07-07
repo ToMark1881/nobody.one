@@ -6,7 +6,7 @@ target 'nobodyOne' do
   use_frameworks!
 
 pod 'Firebase/Database'
-pod 'YoutubeKit'
+pod 'YouTubePlayer'
 
 
 end
