@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-Bold.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
+        <array key="Ubuntu-Regular.ttf">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="88" id="KGk-i7-Jjw" customClass="ConcertCell" customModule="nobody_one" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9EZ-OT-Uxv">
+                        <rect key="frame" x="8" y="87" width="304" height="1"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="GJH-0B-gZU"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGr-Hk-8xj">
+                        <rect key="frame" x="238" y="28" width="66" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="66" id="bjp-dB-aFD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="17"/>
+                        <state key="normal" title="Билеты">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="didTappedOnBuyTicketsButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="BBz-EQ-ovk"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13 октября" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idP-AR-jYF">
+                        <rect key="frame" x="16" y="8" width="288" height="21"/>
+                        <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="18"/>
+                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Краснодар / Sgt. Pepper's Bar" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xl-CG-395">
+                        <rect key="frame" x="18" y="33" width="204" height="42"/>
+                        <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5Xl-CG-395" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="18" id="9MH-ac-H78"/>
+                    <constraint firstItem="idP-AR-jYF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="B0x-Az-g67"/>
+                    <constraint firstAttribute="bottom" secondItem="9EZ-OT-Uxv" secondAttribute="bottom" id="IR6-Jc-Xig"/>
+                    <constraint firstAttribute="trailing" secondItem="VGr-Hk-8xj" secondAttribute="trailing" constant="16" id="Pke-e9-mIr"/>
+                    <constraint firstItem="VGr-Hk-8xj" firstAttribute="leading" secondItem="5Xl-CG-395" secondAttribute="trailing" constant="16" id="f4H-1a-C7f"/>
+                    <constraint firstItem="idP-AR-jYF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="fpD-Jy-jd2"/>
+                    <constraint firstItem="9EZ-OT-Uxv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="hZn-lH-OPd"/>
+                    <constraint firstItem="5Xl-CG-395" firstAttribute="top" secondItem="idP-AR-jYF" secondAttribute="bottom" constant="4" id="jsO-ez-9x0"/>
+                    <constraint firstAttribute="trailing" secondItem="idP-AR-jYF" secondAttribute="trailing" constant="16" id="kVU-GS-fLt"/>
+                    <constraint firstAttribute="trailing" secondItem="9EZ-OT-Uxv" secondAttribute="trailing" constant="8" id="lqX-dU-5Vc"/>
+                    <constraint firstItem="VGr-Hk-8xj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="mwv-iV-lTJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" name="ConcertCellColor"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLabel" destination="idP-AR-jYF" id="QfW-Sw-f8i"/>
+                <outlet property="placeLabel" destination="5Xl-CG-395" id="gDF-ZD-uu8"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="143.30357142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="ConcertCellColor">
+            <color red="0.10999999940395355" green="0.10999999940395355" blue="0.10999999940395355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

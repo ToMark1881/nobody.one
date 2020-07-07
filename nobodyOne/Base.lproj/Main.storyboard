@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tour-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="TourViewController" customModule="nobody_one" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="89" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FNt-jW-kKz">
+                                <rect key="frame" x="0.0" y="44" width="375" height="574"/>
+                                <color key="backgroundColor" name="CellColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="9pv-A4-QxB" id="Jad-To-M9i"/>
+                                    <outlet property="delegate" destination="9pv-A4-QxB" id="UEs-5G-1n4"/>
+                                </connections>
+                            </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="2Yh-XU-KKd">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" name="CellColor"/>
+                        <constraints>
+                            <constraint firstItem="FNt-jW-kKz" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="0Wf-Qc-c4h"/>
+                            <constraint firstItem="2Yh-XU-KKd" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="58L-EW-lSC"/>
+                            <constraint firstItem="FNt-jW-kKz" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="Mua-Bb-X9R"/>
+                            <constraint firstItem="FNt-jW-kKz" firstAttribute="bottom" secondItem="PQr-Ze-W5v" secondAttribute="bottom" id="aee-PG-3dd"/>
+                            <constraint firstItem="2Yh-XU-KKd" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="hvj-z8-bnP"/>
+                            <constraint firstItem="FNt-jW-kKz" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="wHT-JZ-LJz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tour" id="oYk-6r-xrn"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="2Yh-XU-KKd" id="hFv-iN-Az1"/>
+                        <outlet property="tourTableView" destination="FNt-jW-kKz" id="Vg2-z2-svX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2263.1999999999998" y="-491.60419790104953"/>
+        </scene>
+        <!--Music-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="AlbumsViewController" customModule="nobody_one" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mOq-SU-jKM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" name="CellColor"/>
+                        <viewLayoutGuide key="safeArea" id="e9q-8F-110"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Music" id="r0N-qb-apb"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2263.1999999999998" y="232.53373313343329"/>
+        </scene>
+        <!--Links-->
+        <scene sceneID="6uO-XA-6MX">
+            <objects>
+                <viewController id="c79-2W-upU" customClass="InformationViewController" customModule="nobody_one" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="40K-0v-o7S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="CellColor"/>
+                        <viewLayoutGuide key="safeArea" id="2mS-IK-VXw"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Links" id="NTd-4U-8M6"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5wE-mn-Pcw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2263.1999999999998" y="1016.9415292353824"/>
+        </scene>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" customClass="MainTabBarController" customModule="nobody_one" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="0.50253383091517856" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="PZZ-Bq-ZUQ" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="6Vr-oP-nC5" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="8Yk-Bv-1ZO" kind="relationship" relationship="viewControllers" id="Xd5-1u-iXz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-126" y="233"/>
+        </scene>
+        <!--Bring It On-->
+        <scene sceneID="mLp-iH-bzd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PZZ-Bq-ZUQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Bring It On" image="tour-icon" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="72f-6i-V4C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="18"/>
+                            <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="42"/>
+                            <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bcH-SD-xfB">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="Jiv-3B-avM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gbo-cK-Y9P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1324" y="-491.60419790104953"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="BwD-UY-43M">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Vr-oP-nC5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="album-icon" id="cPa-gy-q4n"/>
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="7gK-SY-h5G">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="0.50253383090000003" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="18"/>
+                            <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="42"/>
+                            <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="S11-Yz-VZC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ng6-pn-epy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1324" y="232.53373313343329"/>
+        </scene>
+        <!--Lifeline-->
+        <scene sceneID="gRC-UK-ULe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Yk-Bv-1ZO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Lifeline" image="contact-icon" id="D5B-Co-H95"/>
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="13R-Up-QZl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="0.50253383090000003" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="18"/>
+                            <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="42"/>
+                            <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="c79-2W-upU" kind="relationship" relationship="rootViewController" id="CBK-dP-6Zb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X0Y-er-52N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1324" y="1016.9415292353824"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="album-icon" width="33.333332061767578" height="33.333332061767578"/>
+        <image name="contact-icon" width="33.333332061767578" height="33.333332061767578"/>
+        <image name="tour-icon" width="26" height="26"/>
+        <namedColor name="BackgroundColor">
+            <color red="0.10980392156862745" green="0.10980392156862745" blue="0.10980392156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CellColor">
+            <color red="0.10980392156862745" green="0.10980392156862745" blue="0.10980392156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
