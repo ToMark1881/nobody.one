@@ -13,10 +13,12 @@ class ServicesContainer {
     
     var concertService: ConcertsAPIInterface?
     var albumsSerive: AlbumsAPIInterface?
+    var mediaService: MediaAPIInterface?
     
     init() {
         self.concertService = ConcertsAPIService()
         self.albumsSerive = AlbumsAPIService()
+        self.mediaService = MediaAPIService()
     }
     
 }

@@ -81,5 +81,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+       <string>youtube</string>
+       <string>fb</string>
+       <string>instagram</string>
+       <string>vk</string>
+       <string>soundcloud</string>
+    </array>
 </dict>
 </plist>

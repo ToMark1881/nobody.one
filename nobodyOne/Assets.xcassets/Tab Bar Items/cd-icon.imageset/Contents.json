@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icons8-music-album-100.png",
+      "filename" : "@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

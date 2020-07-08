@@ -1,0 +1,49 @@
+{
+  "socialMedia": [
+    {
+      "title": "VK",
+      "url": "http://vk.com/serge.tabachnikov",
+      "applicationUrl": "vk://vk.com/serge.tabachnikov"
+    },
+    {
+      "title": "Facebook",
+      "url": "http://www.facebook.com/nobodyonemusic",
+      "applicationUrl": "fb://page?id=235315406493329"
+    },
+    {
+      "title": "Instagram",
+      "url": "https://instagram.com/serge.tabachnikov/",
+      "applicationUrl": "instagram://user?username=serge.tabachnikov"
+    },
+    {
+      "title": "SoundCloud",
+      "url": "https://soundcloud.com/nobody-one",
+      "applicationUrl": "soundcloud://nobody-one"
+    },
+    {
+      "title": "iTunes",
+      "url": "https://itunes.apple.com/us/artist/nobody.one/id374039679",
+      "applicationUrl": ""
+    },
+    {
+      "title": "YouTube",
+      "url": "http://www.youtube.com/stereodamage",
+      "applicationUrl": "youtube://www.youtube.com/user/stereodamage"
+    },
+    {
+      "title": "Guitar Battle",
+      "url": "https://www.youtube.com/channel/UCKibwMAVSb9wCIlFDrYxFAw",
+      "applicationUrl": "youtube://www.youtube.com/c/GuitarBattleRussia"
+    },
+    {
+      "title": "Mail",
+      "url": "mailto:serge.tabachnikov@gmail.com",
+      "applicationUrl": ""
+    },
+    {
+      "title": "Shop",
+      "url": "http://nobody.one/shop.php",
+      "applicationUrl": ""
+    }
+    ]
+}

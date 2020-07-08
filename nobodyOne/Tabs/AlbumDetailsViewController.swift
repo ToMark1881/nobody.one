@@ -50,6 +50,13 @@ class AlbumDetailsViewController: BaseViewController {
     @IBAction func didTappedOnPlayPauseButton(_ sender: Any) {
         if isPlaying { self.youtubeView.pause() } else { self.youtubeView.play() }
     }
+    @IBAction func didTappedOnOpenYoutubeButton(_ sender: Any) {
+        guard let videoID = self.album?.videoId, let videoUrl = self.album?.youtubeUrl else { return }
+        //youtube://www.youtube.com/user/stereodamage
+        if let appUrl = URL(string: "youtube://youtu.be/\(videoID)"), UIApplication.shared.canOpenURL(appUrl) {
+            UIApplication.shared.open(appUrl)
+        } else if UIApplication.shared.canOpenURL(videoUrl) { UIApplication.shared.open(videoUrl) }
+    }
     
     fileprivate func setupYoutubeView() {
         // Create a new player
