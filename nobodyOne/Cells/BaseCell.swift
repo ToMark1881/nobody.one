@@ -17,7 +17,9 @@ class BaseCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        let bgColorView = UIView()
+        bgColorView.backgroundColor = UIColor.init(named: "ConcertCellColor")
+        self.selectedBackgroundView = bgColorView
         // Configure the view for the selected state
     }
     

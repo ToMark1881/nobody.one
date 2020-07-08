@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D121FCA24B59248009FD29F /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D121FC824B59248009FD29F /* SongCell.swift */; };
+		7D121FCB24B59248009FD29F /* SongCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D121FC924B59248009FD29F /* SongCell.xib */; };
 		7D16CB9924B4A5760027ACD7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16CB9824B4A5760027ACD7 /* Extensions.swift */; };
 		7D16CB9B24B4A94E0027ACD7 /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16CB9A24B4A94E0027ACD7 /* Tour.swift */; };
 		7D33687024B4E33C0018746B /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D33686F24B4E33C0018746B /* Song.swift */; };
@@ -31,6 +33,10 @@
 		7D4CD94824B47B2B009AEA54 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4CD94724B47B2B009AEA54 /* Album.swift */; };
 		7D4CD95124B48B30009AEA54 /* ConcertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4CD94F24B48B30009AEA54 /* ConcertCell.swift */; };
 		7D4CD95224B48B30009AEA54 /* ConcertCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4CD95024B48B30009AEA54 /* ConcertCell.xib */; };
+		7D5C3D3C24B5A563006D0D35 /* AlbumInforamtionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C3D3A24B5A563006D0D35 /* AlbumInforamtionCell.swift */; };
+		7D5C3D3D24B5A563006D0D35 /* AlbumInforamtionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C3D3B24B5A563006D0D35 /* AlbumInforamtionCell.xib */; };
+		7D5C3D4024B5A582006D0D35 /* AlbumInformationHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C3D3E24B5A582006D0D35 /* AlbumInformationHeaderCell.swift */; };
+		7D5C3D4124B5A582006D0D35 /* AlbumInformationHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C3D3F24B5A582006D0D35 /* AlbumInformationHeaderCell.xib */; };
 		7D94417724B4F98B00558D18 /* AlbumsAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D94417624B4F98B00558D18 /* AlbumsAPIService.swift */; };
 		7D94417B24B4FD6F00558D18 /* AlbumDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D94417A24B4FD6F00558D18 /* AlbumDetailsViewController.swift */; };
 		7D94417D24B4FF3400558D18 /* albums-edited.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D94417C24B4FF3400558D18 /* albums-edited.json */; };
@@ -42,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		55567A7B68644B5E073FC6FD /* Pods_nobodyOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nobodyOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D121FC824B59248009FD29F /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		7D121FC924B59248009FD29F /* SongCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongCell.xib; sourceTree = "<group>"; };
 		7D16CB9824B4A5760027ACD7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7D16CB9A24B4A94E0027ACD7 /* Tour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
 		7D33686F24B4E33C0018746B /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
@@ -68,6 +76,10 @@
 		7D4CD94724B47B2B009AEA54 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		7D4CD94F24B48B30009AEA54 /* ConcertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertCell.swift; sourceTree = "<group>"; };
 		7D4CD95024B48B30009AEA54 /* ConcertCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConcertCell.xib; sourceTree = "<group>"; };
+		7D5C3D3A24B5A563006D0D35 /* AlbumInforamtionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumInforamtionCell.swift; sourceTree = "<group>"; };
+		7D5C3D3B24B5A563006D0D35 /* AlbumInforamtionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumInforamtionCell.xib; sourceTree = "<group>"; };
+		7D5C3D3E24B5A582006D0D35 /* AlbumInformationHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumInformationHeaderCell.swift; sourceTree = "<group>"; };
+		7D5C3D3F24B5A582006D0D35 /* AlbumInformationHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumInformationHeaderCell.xib; sourceTree = "<group>"; };
 		7D94417624B4F98B00558D18 /* AlbumsAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsAPIService.swift; sourceTree = "<group>"; };
 		7D94417A24B4FD6F00558D18 /* AlbumDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewController.swift; sourceTree = "<group>"; };
 		7D94417C24B4FF3400558D18 /* albums-edited.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "albums-edited.json"; sourceTree = "<group>"; };
@@ -153,8 +165,8 @@
 		7D4CD94624B47B1B009AEA54 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7D4CD94324B47AEF009AEA54 /* Concert.swift */,
 				7D16CB9A24B4A94E0027ACD7 /* Tour.swift */,
+				7D4CD94324B47AEF009AEA54 /* Concert.swift */,
 				7D4CD94724B47B2B009AEA54 /* Album.swift */,
 				7D33686F24B4E33C0018746B /* Song.swift */,
 			);
@@ -180,6 +192,12 @@
 				7D4CD95024B48B30009AEA54 /* ConcertCell.xib */,
 				7D33687124B4E4A40018746B /* AlbumCell.swift */,
 				7D33687224B4E4A40018746B /* AlbumCell.xib */,
+				7D121FC824B59248009FD29F /* SongCell.swift */,
+				7D121FC924B59248009FD29F /* SongCell.xib */,
+				7D5C3D3A24B5A563006D0D35 /* AlbumInforamtionCell.swift */,
+				7D5C3D3B24B5A563006D0D35 /* AlbumInforamtionCell.xib */,
+				7D5C3D3E24B5A582006D0D35 /* AlbumInformationHeaderCell.swift */,
+				7D5C3D3F24B5A582006D0D35 /* AlbumInformationHeaderCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -276,9 +294,12 @@
 				7D94417D24B4FF3400558D18 /* albums-edited.json in Resources */,
 				7DFD911F24B49B41008CD205 /* GoogleService-Info.plist in Resources */,
 				7D4CD92224B457F3009AEA54 /* Assets.xcassets in Resources */,
+				7D5C3D4124B5A582006D0D35 /* AlbumInformationHeaderCell.xib in Resources */,
 				7D4CD93A24B45AE7009AEA54 /* Ubuntu-Light.ttf in Resources */,
 				7D4CD93924B45AE7009AEA54 /* Ubuntu-Medium.ttf in Resources */,
+				7D5C3D3D24B5A563006D0D35 /* AlbumInforamtionCell.xib in Resources */,
 				7D4CD93C24B45AE7009AEA54 /* Ubuntu-Regular.ttf in Resources */,
+				7D121FCB24B59248009FD29F /* SongCell.xib in Resources */,
 				7D33687424B4E4A40018746B /* AlbumCell.xib in Resources */,
 				7D4CD95224B48B30009AEA54 /* ConcertCell.xib in Resources */,
 				7D4CD92024B457F2009AEA54 /* Main.storyboard in Resources */,
@@ -339,15 +360,18 @@
 				7DCB463E24B49EDD0008EF46 /* ConcertsAPIService.swift in Sources */,
 				7D4CD92D24B4585F009AEA54 /* MainTabBarController.swift in Sources */,
 				7D4CD91724B457F2009AEA54 /* AppDelegate.swift in Sources */,
+				7D5C3D3C24B5A563006D0D35 /* AlbumInforamtionCell.swift in Sources */,
 				7D94417B24B4FD6F00558D18 /* AlbumDetailsViewController.swift in Sources */,
 				7D4CD91924B457F2009AEA54 /* SceneDelegate.swift in Sources */,
 				7D94417724B4F98B00558D18 /* AlbumsAPIService.swift in Sources */,
+				7D121FCA24B59248009FD29F /* SongCell.swift in Sources */,
 				7D4CD94824B47B2B009AEA54 /* Album.swift in Sources */,
 				7D16CB9B24B4A94E0027ACD7 /* Tour.swift in Sources */,
 				7DCB463C24B49EC10008EF46 /* ServicesContainer.swift in Sources */,
 				7D16CB9924B4A5760027ACD7 /* Extensions.swift in Sources */,
 				7D33687024B4E33C0018746B /* Song.swift in Sources */,
 				7D33687624B4E8E30018746B /* BaseCell.swift in Sources */,
+				7D5C3D4024B5A582006D0D35 /* AlbumInformationHeaderCell.swift in Sources */,
 				7D33687324B4E4A40018746B /* AlbumCell.swift in Sources */,
 				7D4CD95124B48B30009AEA54 /* ConcertCell.swift in Sources */,
 				7D4CD94224B47480009AEA54 /* BaseViewController.swift in Sources */,
