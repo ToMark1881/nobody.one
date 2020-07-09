@@ -10,7 +10,7 @@ import UIKit
 
 class AlbumsViewController: BaseViewController {
     
-    var albums =  [Album]()
+    var albums = [Album]()
     private let albumCellId = "AlbumCell"
 
     @IBOutlet weak var albumsTableView: UITableView!

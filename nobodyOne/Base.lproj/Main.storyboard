@@ -523,11 +523,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cd-icon" width="33.333332061767578" height="33.333332061767578"/>
-        <image name="link-icon" width="33.333332061767578" height="33.333332061767578"/>
+        <image name="cd-icon" width="30" height="30"/>
+        <image name="link-icon" width="30" height="30"/>
         <image name="player-play" width="30" height="30"/>
         <image name="player-share" width="30" height="30"/>
-        <image name="show-icon" width="33.333332061767578" height="33.333332061767578"/>
+        <image name="show-icon" width="30" height="30"/>
         <namedColor name="BackgroundColor">
             <color red="0.10980392156862745" green="0.10980392156862745" blue="0.10980392156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
