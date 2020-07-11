@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; normalTitle = "Просмотреть в  Music"; ObjectID = "1VW-Gr-gNl"; */
+"1VW-Gr-gNl.normalTitle" = "Переглянути в  Music";
+
+/* Class = "UITabBarItem"; title = "Lifeline"; ObjectID = "D5B-Co-H95"; */
+"D5B-Co-H95.title" = "Lifeline";
+
+/* Class = "UINavigationItem"; title = "Links"; ObjectID = "NTd-4U-8M6"; */
+"NTd-4U-8M6.title" = "Посилання";
+
+/* Class = "UITabBarItem"; title = "Bring It On"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Bring It On";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Home";
+
+/* Class = "UIButton"; normalTitle = "Write to developer"; ObjectID = "fZI-Aa-rab"; */
+"fZI-Aa-rab.normalTitle" = "Написати розробнику";
+
+/* Class = "UINavigationItem"; title = "Tour"; ObjectID = "oYk-6r-xrn"; */
+"oYk-6r-xrn.title" = "Тур";
+
+/* Class = "UINavigationItem"; title = "Album"; ObjectID = "pXh-rG-TKb"; */
+"pXh-rG-TKb.title" = "Альбом";
+
+/* Class = "UILabel"; text = "Спасибо за вдохновение и незабываемые эмоции"; ObjectID = "peG-BH-e16"; */
+"peG-BH-e16.text" = "Дякую за натхнення та емоції";
+
+/* Class = "UINavigationItem"; title = "Albums"; ObjectID = "r0N-qb-apb"; */
+"r0N-qb-apb.title" = "Альбоми";
+
+/* Class = "UIButton"; normalTitle = "nobody.one"; ObjectID = "zt0-ef-rZM"; */
+"zt0-ef-rZM.normalTitle" = "nobody.one";

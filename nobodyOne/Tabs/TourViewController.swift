@@ -79,6 +79,7 @@ extension TourViewController: UITableViewDelegate, UITableViewDataSource {
 
 extension TourViewController: ConcertCellDelegate {
     func didTapOnPurchaseTicket(_ concert: Concert?) {
+        self.servicesContainer.analyticsService?.trackOpenTicketsStore(concert?.city)
         self.openTicketsWebsite(concert)
     }
     

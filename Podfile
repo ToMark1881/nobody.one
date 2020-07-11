@@ -6,6 +6,7 @@ target 'nobodyOne' do
   use_frameworks!
 
 pod 'Firebase/Database'
+pod 'Firebase/Analytics'
 pod 'YouTubePlayer'
 
 

@@ -44,6 +44,7 @@ class AlbumDetailsViewController: BaseViewController {
     
     @IBAction func didTapOnAppleMusicButton(_ sender: Any) {
         guard let appleMusicUrl = self.album?.appleMusicUrl else { return }
+        self.servicesContainer.analyticsService?.trackAlbumOpenedInAppleMusic(self.album?.title)
         UIApplication.shared.open(appleMusicUrl)
     }
     
@@ -104,6 +105,7 @@ extension AlbumDetailsViewController: UITableViewDelegate, UITableViewDataSource
             }
         } else if indexPath.section == 1 { //songTapped
             let song = self.album?.songs?[indexPath.row]
+            self.servicesContainer.analyticsService?.trackSelectedSong(song?.title)
             self.scrollToSong(song)
         }
     }

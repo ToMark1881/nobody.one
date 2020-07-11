@@ -55,7 +55,7 @@ class ConcertCell: BaseCell {
         if let timestamp = concert.eventTimestamp {
             let date = Date(timeIntervalSince1970: TimeInterval(timestamp))
             let dateFormatter = DateFormatter()
-            dateFormatter.locale = Locale(identifier: "ru")
+            dateFormatter.locale = Locale.current
             dateFormatter.dateFormat = "d MMMM"
             self.dateLabel.text = dateFormatter.string(from: date)
         }

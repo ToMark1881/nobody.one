@@ -43,7 +43,7 @@ class AlbumCell: BaseCell {
         if let name = album.coverImageName { self.coverImageView.image = UIImage(named: name) }
         self.yearLabel.text = album.year?.description
         self.albumTitleLabel.text = album.title
-        self.songsCountLabel.text = "Песен" + ": \(album.songs?.count ?? 0)"
+        self.songsCountLabel.text = "Songs".localized + ": \(album.songs?.count ?? 0)"
     }
     
 }

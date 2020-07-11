@@ -14,11 +14,13 @@ class ServicesContainer {
     var concertService: ConcertsAPIInterface?
     var albumsSerive: AlbumsAPIInterface?
     var mediaService: MediaAPIInterface?
+    var analyticsService: AnalyticsAPIInterface?
     
     init() {
         self.concertService = ConcertsAPIService()
         self.albumsSerive = AlbumsAPIService()
         self.mediaService = MediaAPIService()
+        self.analyticsService = FirebaseAPIAnalyticsService()
     }
     
 }

@@ -55,6 +55,7 @@ extension AlbumsViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.servicesContainer.analyticsService?.trackSelectedAlbum(albums[indexPath.row].title)
         self.performSegue(withIdentifier: "showAlbumDetailsViewController", sender: albums[indexPath.row])
     }
     
