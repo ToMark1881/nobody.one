@@ -51,9 +51,10 @@ class AlbumDetailsViewController: BaseViewController {
     @IBAction func didTappedOnPlayPauseButton(_ sender: Any) {
         if isPlaying { self.youtubeView.pause() } else { self.youtubeView.play() }
     }
+    
     @IBAction func didTappedOnOpenYoutubeButton(_ sender: Any) {
         guard let videoID = self.album?.videoId, let videoUrl = self.album?.youtubeUrl else { return }
-        //youtube://www.youtube.com/user/stereodamage
+        self.servicesContainer.analyticsService?.trackAlbumOpenedInYoutube(self.album?.title)
         if let appUrl = URL(string: "youtube://youtu.be/\(videoID)"), UIApplication.shared.canOpenURL(appUrl) {
             UIApplication.shared.open(appUrl)
         } else if UIApplication.shared.canOpenURL(videoUrl) { UIApplication.shared.open(videoUrl) }
@@ -61,6 +62,7 @@ class AlbumDetailsViewController: BaseViewController {
     
     @IBAction func didTappedOnSpotifyButton(_ sender: Any) {
         guard let spotyfyUrl = self.album?.spotifyUrl else { return }
+        self.servicesContainer.analyticsService?.trackAlbumOpenedInSpotify(self.album?.title)
         if let appUrl = URL(string: "spotify://\(spotyfyUrl.absoluteString)"), UIApplication.shared.canOpenURL(appUrl) {
             UIApplication.shared.open(appUrl)
         } else if UIApplication.shared.canOpenURL(spotyfyUrl) { UIApplication.shared.open(spotyfyUrl) }
