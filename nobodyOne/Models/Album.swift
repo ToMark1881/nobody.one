@@ -16,11 +16,13 @@ class Album {
     let coverImageName: String?
     let youtubeUrl: URL?
     let appleMusicUrl: URL?
+    let spotifyUrl: URL?
     let videoId: String?
     let songs: [Song]?
     
     private let youtubeUrlString: String?
     private let appleMusicUrlString: String?
+    private let spotifyUrlString: String?
     
     
     init(_ dict: Dictionary<String, AnyObject>) {
@@ -46,6 +48,11 @@ class Album {
             self.appleMusicUrlString = urlString
             self.appleMusicUrl = URL(string: urlString)
         } else { self.appleMusicUrlString = nil; self.appleMusicUrl = nil }
+        
+        if let urlString = dict["spotifyUrl"] as? String {
+            self.spotifyUrlString = urlString
+            self.spotifyUrl = URL(string: urlString)
+        } else { self.spotifyUrlString = nil; self.spotifyUrl = nil }
     }
     
 }

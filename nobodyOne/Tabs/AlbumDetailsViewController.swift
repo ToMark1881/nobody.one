@@ -59,6 +59,13 @@ class AlbumDetailsViewController: BaseViewController {
         } else if UIApplication.shared.canOpenURL(videoUrl) { UIApplication.shared.open(videoUrl) }
     }
     
+    @IBAction func didTappedOnSpotifyButton(_ sender: Any) {
+        guard let spotyfyUrl = self.album?.spotifyUrl else { return }
+        if let appUrl = URL(string: "spotify://\(spotyfyUrl.absoluteString)"), UIApplication.shared.canOpenURL(appUrl) {
+            UIApplication.shared.open(appUrl)
+        } else if UIApplication.shared.canOpenURL(spotyfyUrl) { UIApplication.shared.open(spotyfyUrl) }
+    }
+    
     fileprivate func setupYoutubeView() {
         // Create a new player
         guard let videoID = self.album?.videoId else { return }
@@ -93,8 +100,6 @@ class AlbumDetailsViewController: BaseViewController {
 }
 
 extension AlbumDetailsViewController: UITableViewDelegate, UITableViewDataSource {
-    
-    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.section == 0 && indexPath.row == 0 { //expandCell

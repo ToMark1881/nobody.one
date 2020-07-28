@@ -31,6 +31,11 @@
       "applicationUrl": "youtube://www.youtube.com/user/stereodamage"
     },
     {
+      "title": "Patreon",
+      "url": "http://www.youtube.com/stereodamage",
+      "applicationUrl": "com.patreon.iphone://www.youtube.com/user/stereodamage"
+    },
+    {
       "title": "Guitar Battle",
       "url": "https://www.youtube.com/channel/UCKibwMAVSb9wCIlFDrYxFAw",
       "applicationUrl": "youtube://www.youtube.com/c/GuitarBattleRussia"

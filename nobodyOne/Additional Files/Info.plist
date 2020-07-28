@@ -25,6 +25,7 @@
 		<string>instagram</string>
 		<string>vk</string>
 		<string>soundcloud</string>
+		<string>com.patreon.iphone</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
