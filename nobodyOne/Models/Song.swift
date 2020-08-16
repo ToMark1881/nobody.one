@@ -8,8 +8,7 @@
 
 import Foundation
 
-
-class Song {
+class Song: NSObject {
     
     let title: String?
     let timestamp: Int?

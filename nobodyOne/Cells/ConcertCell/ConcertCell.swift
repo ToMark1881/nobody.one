@@ -6,12 +6,6 @@
 //  Copyright © 2020 Vladyslav Vdovychenko. All rights reserved.
 //
 
-protocol ConcertCellDelegate: class {
-    
-    func didTapOnPurchaseTicket(_ concert: Concert?)
-    
-}
-
 import UIKit
 
 class ConcertCell: BaseCell {
@@ -22,8 +16,6 @@ class ConcertCell: BaseCell {
         }
     }
     
-    weak var delegate: ConcertCellDelegate?
-
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var placeLabel: UILabel!
     
@@ -31,10 +23,6 @@ class ConcertCell: BaseCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-    }
-
-    @IBAction func didTappedOnBuyTicketsButton(_ sender: Any) {
-        self.delegate?.didTapOnPurchaseTicket(self.concert)
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -52,13 +40,7 @@ class ConcertCell: BaseCell {
     override func setupCell() {
         guard let concert = concert else { return }
         self.placeLabel.text = "\(concert.city ?? "") / \(concert.placeTitle ?? "")"
-        if let timestamp = concert.eventTimestamp {
-            let date = Date(timeIntervalSince1970: TimeInterval(timestamp))
-            let dateFormatter = DateFormatter()
-            dateFormatter.locale = Locale.current
-            dateFormatter.dateFormat = "d MMMM"
-            self.dateLabel.text = dateFormatter.string(from: date)
-        }
+        self.dateLabel.text = concert.getFormattedDate()
     }
     
 }

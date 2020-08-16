@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -49,6 +49,10 @@
 		7D94417D24B4FF3400558D18 /* albums-edited.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D94417C24B4FF3400558D18 /* albums-edited.json */; };
 		7DCB463C24B49EC10008EF46 /* ServicesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCB463B24B49EC10008EF46 /* ServicesContainer.swift */; };
 		7DCB463E24B49EDD0008EF46 /* ConcertsAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCB463D24B49EDD0008EF46 /* ConcertsAPIService.swift */; };
+		7DFB275624E917AB0078192B /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7DFB275524E917AB0078192B /* Kingfisher */; };
+		7DFB275824E91A320078192B /* ConcertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFB275724E91A320078192B /* ConcertViewController.swift */; };
+		7DFB275A24E920F30078192B /* ConcertMapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFB275924E920F30078192B /* ConcertMapLocation.swift */; };
+		7DFB275C24E923880078192B /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFB275B24E923880078192B /* Artwork.swift */; };
 		7DFD911F24B49B41008CD205 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD911E24B49B41008CD205 /* GoogleService-Info.plist */; };
 		C444C6CE515222282AE6F15E /* Pods_nobodyOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55567A7B68644B5E073FC6FD /* Pods_nobodyOne.framework */; };
 /* End PBXBuildFile section */
@@ -86,11 +90,8 @@
 		7D5C3D3B24B5A563006D0D35 /* AlbumInforamtionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumInforamtionCell.xib; sourceTree = "<group>"; };
 		7D5C3D3E24B5A582006D0D35 /* AlbumInformationHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumInformationHeaderCell.swift; sourceTree = "<group>"; };
 		7D6D6A6524BA84FE006EF77E /* AnalyticsAPISerice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsAPISerice.swift; sourceTree = "<group>"; };
-		7D6D6A6724BA8757006EF77E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		7D6D6A6824BA8758006EF77E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		7D6D6A6924BA8760006EF77E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
 		7D6D6A6A24BA8760006EF77E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		7D6D6A6C24BA87C5006EF77E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		7D6D6A6E24BA87F9006EF77E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ConcertCell.xib; sourceTree = "<group>"; };
 		7D6D6A7124BA8800006EF77E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ConcertCell.strings; sourceTree = "<group>"; };
 		7D6D6A7324BA8801006EF77E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/ConcertCell.strings; sourceTree = "<group>"; };
@@ -112,6 +113,12 @@
 		7D94417C24B4FF3400558D18 /* albums-edited.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "albums-edited.json"; sourceTree = "<group>"; };
 		7DCB463B24B49EC10008EF46 /* ServicesContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesContainer.swift; sourceTree = "<group>"; };
 		7DCB463D24B49EDD0008EF46 /* ConcertsAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertsAPIService.swift; sourceTree = "<group>"; };
+		7DFB275724E91A320078192B /* ConcertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertViewController.swift; sourceTree = "<group>"; };
+		7DFB275924E920F30078192B /* ConcertMapLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertMapLocation.swift; sourceTree = "<group>"; };
+		7DFB275B24E923880078192B /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		7DFB275E24E93B790078192B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		7DFB276024E93B820078192B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		7DFB276224E93B8A0078192B /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
 		7DFD911E24B49B41008CD205 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADAC2870C28224D9F1811867 /* Pods-nobodyOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nobodyOne.release.xcconfig"; path = "Target Support Files/Pods-nobodyOne/Pods-nobodyOne.release.xcconfig"; sourceTree = "<group>"; };
 		B078590F2D7176E60F0884EB /* Pods-nobodyOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nobodyOne.debug.xcconfig"; path = "Target Support Files/Pods-nobodyOne/Pods-nobodyOne.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFB275624E917AB0078192B /* Kingfisher in Frameworks */,
 				C444C6CE515222282AE6F15E /* Pods_nobodyOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +195,7 @@
 				7D4CD91824B457F2009AEA54 /* SceneDelegate.swift */,
 				7D4CD94124B47480009AEA54 /* BaseViewController.swift */,
 				7D16CB9824B4A5760027ACD7 /* Extensions.swift */,
+				7DFB275B24E923880078192B /* Artwork.swift */,
 			);
 			path = "Additional Files";
 			sourceTree = "<group>";
@@ -195,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				7D16CB9A24B4A94E0027ACD7 /* Tour.swift */,
+				7DFB275924E920F30078192B /* ConcertMapLocation.swift */,
 				7D4CD94324B47AEF009AEA54 /* Concert.swift */,
 				7D4CD94724B47B2B009AEA54 /* Album.swift */,
 				7D33686F24B4E33C0018746B /* Song.swift */,
@@ -207,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				7D4CD91A24B457F2009AEA54 /* TourViewController.swift */,
+				7DFB275724E91A320078192B /* ConcertViewController.swift */,
 				7D4CD91C24B457F2009AEA54 /* AlbumsViewController.swift */,
 				7D94417A24B4FD6F00558D18 /* AlbumDetailsViewController.swift */,
 				7D4CD92E24B458CB009AEA54 /* InformationViewController.swift */,
@@ -321,6 +332,9 @@
 			dependencies = (
 			);
 			name = nobodyOne;
+			packageProductDependencies = (
+				7DFB275524E917AB0078192B /* Kingfisher */,
+			);
 			productName = nobodyOne;
 			productReference = 7D4CD91324B457F2009AEA54 /* nobody.one.app */;
 			productType = "com.apple.product-type.application";
@@ -351,6 +365,9 @@
 				uk,
 			);
 			mainGroup = 7D4CD90A24B457F2009AEA54;
+			packageReferences = (
+				7DFB275424E917AB0078192B /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 7D4CD91424B457F2009AEA54 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -441,7 +458,9 @@
 				7D4CD92D24B4585F009AEA54 /* MainTabBarController.swift in Sources */,
 				7D4CD91724B457F2009AEA54 /* AppDelegate.swift in Sources */,
 				7D5C3D3C24B5A563006D0D35 /* AlbumInforamtionCell.swift in Sources */,
+				7DFB275C24E923880078192B /* Artwork.swift in Sources */,
 				7D91156524B5D69B005C5425 /* Media.swift in Sources */,
+				7DFB275A24E920F30078192B /* ConcertMapLocation.swift in Sources */,
 				7D94417B24B4FD6F00558D18 /* AlbumDetailsViewController.swift in Sources */,
 				7D4CD91924B457F2009AEA54 /* SceneDelegate.swift in Sources */,
 				7D94417724B4F98B00558D18 /* AlbumsAPIService.swift in Sources */,
@@ -451,6 +470,7 @@
 				7D6D6A6624BA84FE006EF77E /* AnalyticsAPISerice.swift in Sources */,
 				7DCB463C24B49EC10008EF46 /* ServicesContainer.swift in Sources */,
 				7D16CB9924B4A5760027ACD7 /* Extensions.swift in Sources */,
+				7DFB275824E91A320078192B /* ConcertViewController.swift in Sources */,
 				7D33687024B4E33C0018746B /* Song.swift in Sources */,
 				7D33687624B4E8E30018746B /* BaseCell.swift in Sources */,
 				7D5C3D4024B5A582006D0D35 /* AlbumInformationHeaderCell.swift in Sources */,
@@ -470,9 +490,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				7D4CD91F24B457F2009AEA54 /* Base */,
-				7D6D6A6724BA8757006EF77E /* ru */,
-				7D6D6A6924BA8760006EF77E /* uk */,
-				7D6D6A6C24BA87C5006EF77E /* en */,
+				7DFB275E24E93B790078192B /* en */,
+				7DFB276024E93B820078192B /* ru */,
+				7DFB276224E93B8A0078192B /* uk */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -645,7 +665,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 839QV4DU65;
 				INFOPLIST_FILE = "nobodyOne/Additional Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -667,7 +687,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 839QV4DU65;
 				INFOPLIST_FILE = "nobodyOne/Additional Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -705,6 +725,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7DFB275424E917AB0078192B /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.14.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7DFB275524E917AB0078192B /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DFB275424E917AB0078192B /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7D4CD90B24B457F2009AEA54 /* Project object */;
 }

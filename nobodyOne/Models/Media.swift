@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Media {
+class Media: NSObject {
     
     let title: String?
     let safariUrl: URL?

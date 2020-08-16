@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Album {
+class Album: NSObject {
     
     let title: String?
     let year: Int?

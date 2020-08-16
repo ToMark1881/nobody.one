@@ -17,6 +17,10 @@ class BaseViewController: UIViewController {
         initServices()
     }
     
+    func setupViews() {
+        //for override
+    }
+    
     func setNavigationTitle(_ title: String) {
         self.title = title
     }

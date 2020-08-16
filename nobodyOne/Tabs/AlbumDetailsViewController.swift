@@ -38,6 +38,11 @@ class AlbumDetailsViewController: BaseViewController {
         setupTableView()
     }
     
+    
+    override func setupViews() {
+        self.setNavigationTitle(album?.title ?? "Album")
+    }
+    
     deinit {
         print("deinit AlbumDetailsViewController")
     }
@@ -87,10 +92,6 @@ class AlbumDetailsViewController: BaseViewController {
     fileprivate func setupTableViewHeight() {
         self.tableHeight.constant = self.albumTableView.contentSize.height + 12
         self.mainScrollView.layoutIfNeeded()
-    }
-    
-    fileprivate func setupViews() {
-        self.setNavigationTitle(album?.title ?? "Album")
     }
     
     fileprivate func scrollToSong(_ song: Song?) {

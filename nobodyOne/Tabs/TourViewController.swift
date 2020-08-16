@@ -22,9 +22,11 @@ class TourViewController: BaseViewController {
         self.loadEvents()
     }
     
-    fileprivate func openTicketsWebsite(_ concert: Concert?) {
-        if let url = concert?.ticketsUrl {
-            UIApplication.shared.open(url)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        if segue.identifier == "showConcertDetailsViewController", let concert = sender as? Concert {
+            let concertViewController = segue.destination as? ConcertViewController
+            concertViewController?.concert = concert
         }
     }
     
@@ -71,18 +73,12 @@ extension TourViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: concertCellId) as! ConcertCell
-        cell.delegate = self
         cell.concert = tours[indexPath.section].concerts?[indexPath.row]
         return cell
     }
-}
-
-extension TourViewController: ConcertCellDelegate {
-    func didTapOnPurchaseTicket(_ concert: Concert?) {
-        self.servicesContainer.analyticsService?.trackOpenTicketsStore(concert?.city)
-        self.openTicketsWebsite(concert)
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: "showConcertDetailsViewController", sender: tours[indexPath.section].concerts?[indexPath.row])
     }
-    
-    
 }
 
