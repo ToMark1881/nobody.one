@@ -16,6 +16,7 @@ class Concert: NSObject {
     private let ticketsUrlString: String?
     let ticketsUrl: URL?
     var mapPoint: ConcertMapLocation?
+    weak var tour: Tour?
     
     var tourImageUrl: URL?
     

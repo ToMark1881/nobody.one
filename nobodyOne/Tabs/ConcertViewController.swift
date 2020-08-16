@@ -19,6 +19,7 @@ class ConcertViewController: BaseViewController {
     @IBOutlet weak var concertPlaceLabel: UILabel!
     @IBOutlet weak var concertPlaceMapView: MKMapView!
     @IBOutlet weak var openNavigationButton: UIButton!
+    @IBOutlet weak var tourInfoLabel: UILabel!
     
     
     public var concert: Concert?
@@ -43,6 +44,7 @@ class ConcertViewController: BaseViewController {
         self.concertDateLabel.text = concert.getFormattedDate()
         self.concertCityLabel.text = (concert.city ?? "").uppercased()
         self.concertPlaceLabel.text = concert.placeTitle ?? ""
+        self.tourInfoLabel.text = concert.tour?.tourInfo ?? ""
         if let url = concert.tourImageUrl {
             self.tourImageView.kf.setImage(with: url)
         }
@@ -69,6 +71,10 @@ class ConcertViewController: BaseViewController {
         if let url = concert?.ticketsUrl {
             UIApplication.shared.open(url)
         }
+    }
+    
+    deinit {
+        print("deinit ConcertViewController")
     }
 
 }

@@ -15,11 +15,13 @@ class Tour: NSObject {
     let citiesCount: Int?
     private let tourImageUrlString: String?
     let tourImageUrl: URL?
+    let tourInfo: String?
     let concerts: [Concert]?
     
     init(_ dict: Dictionary<String, AnyObject>) {
         self.title = dict["title"] as? String
         self.citiesCount = dict["citiesCount"] as? Int
+        self.tourInfo = (dict["tourInfo"] as? String)?.replacingOccurrences(of: "\\n", with: "\n")
         if let urlString = dict["tourImageUrl"] as? String {
             self.tourImageUrlString = urlString
             tourImageUrl = URL(string: urlString)
@@ -33,6 +35,9 @@ class Tour: NSObject {
             }
         }
         self.concerts = concerts
+        super.init()
+        
+        concerts.forEach({ $0.tour = self })
     }
     
 }
